@@ -1,4 +1,7 @@
 <?php
+
+phpinfo();
+
 echo "Hello World!";
 $con = mysqli_connect("db","root","root","TestDB");
 
