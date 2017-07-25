@@ -1,6 +1,6 @@
 <?php
 echo "Hello World!";
-$con = mysqli_connect("db","wordpress","wordpress","wordpress");
+$con = mysqli_connect("db","root","root","TestDB");
 
 // Check connection
 if (mysqli_connect_errno())
